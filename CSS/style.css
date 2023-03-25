@@ -74,8 +74,8 @@ img{
 }
 .btn{
     display: inline-block;
-    background: var(--color-white);
-    color: var(--color-black);
+    background: var(--color-danger);
+    color: var(--color-white);
     padding: 1rem 2rem;
     border: 1px solid transparent;
     font-weight: 500;
@@ -155,7 +155,7 @@ header{
 
 .categories{
     background: var(--color-bg1);
-    height: 32rem;
+    height: 40.5rem;
 }
 .categories h1{
     line-height: 1;
@@ -165,9 +165,12 @@ header{
 .categories__container{
     display: grid;
     grid-template-columns: 40% 60%;
+    margin-right: 2rem;
 }
 .categories__left{
     margin-right: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
 }
 .categories__left p{
     margin: 1rem 0 3rem;
@@ -218,6 +221,7 @@ header{
 
 
 .courses{
+    position: relative;
     margin-top: 10rem;
 }
 .courses__container{
@@ -358,8 +362,10 @@ header{
 /*============================ tablets =================================*/
 @media screen and (max-width: 1024px) {
     img{
-        margin-left: 17%;
-        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        width:40%;
         display: block;
         object-fit: cover; 
     }
@@ -406,6 +412,11 @@ header{
     animation: animateNavItems 400ms linear forwards;
     transform-origin: top right;
     opacity: 0;
+   }
+   .avatar img{
+    margin-top: auto;
+    width: 4rem;
+    height: 4rem;
    }
 
    .nav__menu li:nth-child(2){
