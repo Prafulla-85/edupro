@@ -413,11 +413,6 @@ header{
     transform-origin: top right;
     opacity: 0;
    }
-   .avatar img{
-    margin-top: auto;
-    width: 4rem;
-    height: 4rem;
-   }
 
    .nav__menu li:nth-child(2){
     animation-delay: 200ms;
